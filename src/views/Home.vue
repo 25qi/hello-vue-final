@@ -10,10 +10,6 @@
       <li><a href="#">about</a></li>
     </ul> -->
     <!-- The video -->
-<<<<<<< HEAD
-
-=======
->>>>>>> 3dad63010fceae0106aae6b92e2aebfe085cba0d
     <video autoplay muted loop id="myVideo">
       <source src="../assets/network03.mp4" type="video/mp4" />
     </video>
@@ -24,7 +20,6 @@
 <script>
 // // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
-<<<<<<< HEAD
 
 // export default {
 //   name: 'Home',
@@ -51,34 +46,6 @@
 
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
 
-=======
-
-// export default {
-//   name: 'Home',
-//   components: {
-//     HelloWorld
-//   }
-// }
-//
-</script>
-
-<style lang="scss">
-#myVideo {
-  position: fixed;
-  margin: 0px;
-  right: 0;
-  left: 0px;
-  bottom: 0;
-  top: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -999;
-}
-// https://picular.co/bluemoon
-
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
-
->>>>>>> 3dad63010fceae0106aae6b92e2aebfe085cba0d
 // body {
 //   display: flex;
 //   height: 100vh;
@@ -88,7 +55,6 @@
 //   background: #171617;
 // }
 
-<<<<<<< HEAD
 body,
 html {
   margin: 0;
@@ -220,35 +186,5 @@ body {
 .nav_circle:hover .nav_circle02 {
   opacity: 1;
   transform: translatez(0px);
-=======
-ul {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  list-style-type: none;
-
-  li {
-    padding: 6px 0;
-
-    a {
-      --fill-color: #a7b3bd;
-      position: relative;
-      display: block;
-      padding: 4px 0;
-      font: 700 3rem Raleway, sans-serif;
-      text-decoration: none;
-      text-transform: uppercase;
-      -webkit-text-stroke: 2px var(--fill-color);
-      background: linear-gradient(var(--fill-color) 0 100%) left / 0 no-repeat;
-      color: transparent;
-      background-clip: text;
-      transition: 0.5s linear;
-
-      &:hover {
-        background-size: 100%;
-      }
-    }
-  }
->>>>>>> 3dad63010fceae0106aae6b92e2aebfe085cba0d
 }
 </style>
